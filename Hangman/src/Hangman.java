@@ -124,7 +124,7 @@ public class Hangman extends JFrame {
         wrdLbl8 = new javax.swing.JLabel();
         wrdLbl9 = new javax.swing.JLabel();
         wrdLbl10 = new javax.swing.JLabel();
-        restartBtn = new javax.swing.JButton();
+        restartButton = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         hintLbl = new javax.swing.JLabel();
 
@@ -209,12 +209,12 @@ public class Hangman extends JFrame {
         wrdLbl10.setForeground(new java.awt.Color(255, 255, 0));
         wrdLbl10.setText("X");
 
-        restartBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/restart.png"))); // NOI18N
-        restartBtn.setBorderPainted(false);
-        restartBtn.setContentAreaFilled(false);
-        restartBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        restartBtn.setDefaultCapable(false);
-        restartBtn.addActionListener(new java.awt.event.ActionListener() {
+        restartButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/restart.png"))); // NOI18N
+        restartButton.setBorderPainted(false);
+        restartButton.setContentAreaFilled(false);
+        restartButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        restartButton.setDefaultCapable(false);
+        restartButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 restartBtnActionPerformed(evt);
             }
@@ -276,7 +276,7 @@ public class Hangman extends JFrame {
                             .addComponent(hangBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(restartBtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(restartButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addGap(11, 11, 11))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -320,7 +320,7 @@ public class Hangman extends JFrame {
                         .addComponent(hintLbl, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(restartBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(restartButton, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
@@ -523,7 +523,7 @@ public class Hangman extends JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JButton restartBtn;
+    private javax.swing.JButton restartButton;
     private javax.swing.JTextField txtWord;
     private javax.swing.JLabel wrdLbl1;
     private javax.swing.JLabel wrdLbl10;
